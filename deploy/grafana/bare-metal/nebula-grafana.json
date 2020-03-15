@@ -308,8 +308,8 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "nebula_graphd_go_latency_count_60",
-          "interval": "10s",
+          "expr": "nebula_graphd_go_latency_count_5",
+          "interval": "5s",
           "refId": "A"
         }
       ],
@@ -395,8 +395,8 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "nebula_graphd_insert_edge_latency_count_60",
-          "interval": "10s",
+          "expr": "nebula_graphd_insert_edge_latency_count_5",
+          "interval": "5s",
           "refId": "A"
         }
       ],
@@ -482,7 +482,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "nebula_graphd_insert_vertex_latency_count_60",
+          "expr": "nebula_graphd_insert_vertex_latency_count_5",
           "refId": "A"
         }
       ],
@@ -593,7 +593,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "µs",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -680,7 +680,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "ns",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -742,7 +742,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "nebula_graphd_go_qps_error_avg_5",
+          "expr": "0nebula_graphd_go_qps_error_avg_60",
           "refId": "A"
         }
       ],
@@ -766,7 +766,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "µs",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -852,7 +852,7 @@
       },
       "yaxes": [
         {
-          "format": "short",
+          "format": "µs",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -1074,5 +1074,5 @@
   "timezone": "browser",
   "title": "nebula",
   "uid": "97I8NYLWk",
-  "version": 3
+  "version": 2
 }
